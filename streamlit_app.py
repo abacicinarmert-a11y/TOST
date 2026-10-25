@@ -14,7 +14,7 @@ if api_key:
         genai.configure(api_key=api_key)
         # Gemini modelini ve özel sistem talimatını ayarlama
         model = genai.GenerativeModel(
-            model_name="gemini-1.5-flash",
+            model_name="gemini-2.5-flash",
             system_instruction="Sen arkadaş canlısı, yardımsever ve sempatik bir asistansın."
         )
 
