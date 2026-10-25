@@ -45,9 +45,6 @@ if api_key:
                 st.session_state.messages.append({"role": "assistant", "content": response.text})
                 
     except Exception as e:
-except Exception as e:
-        st.error(f"Bir hata oluştu: {e}")else:
-    st.warning("🔑 Devam etmek için lütfen Google AI Studio API anahtarınızı girin.")except Exception as e:
         st.error(f"Bir hata oluştu: {e}")
 else:
     st.warning("🔑 Devam etmek için lütfen Google AI Studio API anahtarınızı girin.")
