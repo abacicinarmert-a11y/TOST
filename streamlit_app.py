@@ -21,7 +21,7 @@ else:
         
         # Gemini modelini ayarlama (güncel model sürümü)
         model = genai.GenerativeModel(
-                model_name="gemini-1.5-flash",
+                model_name="gemini-2.5-flash",
             system_instruction="Sen arkadaş canlısı, yardımsever ve sempatik bir asistansın."
         )
 
