@@ -6,10 +6,9 @@ st.set_page_config(page_title="TOST Asistan", page_icon="🤖")
 st.title("🤖 TOST - Gemini Asistanı")
 st.write("Google Gemini gücüyle çalışan arkadaş canlısı yapay zeka uygulamanız!")
 
-# Kullanıcıdan Gemini API anahtarı isteme
-api_key = st.text_input("Google AI Studio API Anahtarınızı Girin:", type="password")
+#
 
-if api_key:
+
     try:
         genai.configure(api_key=api_key)
         # Gemini modelini ve özel sistem talimatını ayarlama
